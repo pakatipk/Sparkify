@@ -41,11 +41,13 @@ python3 create_tables.py
 6. Run **`etl.py`** to load data from JSON located in S3 bucket to staging tables and then to the final tables for analysis 
 
 ```bash
-$ python etl.py
+$ python3 etl.py
 ```
 
 7. Run **`analysis.py`** for dalata validations and sample questions that users might have
-
+```bash
+$ python3 analysis.py
+```
 
 ## Link to program
 
